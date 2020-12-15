@@ -1,3 +1,18 @@
 <resources>
-    <string name="app_name">GenesysCharacterSheetApp</string>
+    <string name="app_name">Genesys Character Sheet App</string>
+    <string-array name="Characteristics">
+        <item>Brawn</item>
+        <item>Agility</item>
+        <item>Intellect</item>
+        <item>Cunning</item>
+        <item>Willpower</item>
+        <item>Presence</item>
+    </string-array>
+    <string name="BrawnString">Brawn</string>
+    <string name="AgilityString">Agility</string>
+    <string name="IntellectString">Intellect</string>
+    <string name="CunningString">Cunning</string>
+    <string name="WillpowerString">Willpower</string>
+    <string name="PresenceString">Presence</string>
+
 </resources>
