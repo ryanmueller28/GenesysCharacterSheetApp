@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CharacteristicActivity">
+
+    <TextView
+        android:id="@+id/characterName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="228dp"
+        android:text="@string/character_name"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.067"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/editCharacterName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.079"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/characterName" />
+
+    <TextView
+        android:id="@+id/Brawn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/BrawnString"
+        android:textSize="24sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editCharacterName" />
+
+    <EditText
+        android:id="@+id/BrawnValue"
+        android:layout_width="65dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Brawn" />
+
+    <TextView
+        android:id="@+id/Agility"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="64dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/AgilityString"
+        android:textSize="24sp"
+        app:layout_constraintStart_toEndOf="@+id/Brawn"
+        app:layout_constraintTop_toBottomOf="@+id/editCharacterName" />
+
+    <EditText
+        android:id="@+id/AgilityValue"
+        android:layout_width="65dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/BrawnValue"
+        app:layout_constraintTop_toBottomOf="@+id/Agility" />
+
+    <TextView
+        android:id="@+id/Intellect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/IntellectString"
+        android:textSize="24dp"
+        app:layout_constraintStart_toEndOf="@+id/Agility"
+        app:layout_constraintTop_toBottomOf="@+id/editCharacterName" />
+
+    <EditText
+        android:id="@+id/IntellectValue"
+        android:layout_width="65dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="72dp"
+        android:layout_marginTop="8dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/AgilityValue"
+        app:layout_constraintTop_toBottomOf="@+id/Intellect" />
+
+    <EditText
+        android:id="@+id/PresenceValue"
+        android:layout_width="65dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/WillpowerValue"
+        app:layout_constraintTop_toBottomOf="@+id/Presence" />
+
+    <TextView
+        android:id="@+id/Presence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/PresenceString"
+        android:textSize="24dp"
+        app:layout_constraintStart_toEndOf="@+id/Willpower"
+        app:layout_constraintTop_toBottomOf="@+id/IntellectValue"
+        tools:ignore="InvalidId" />
+
+    <TextView
+        android:id="@+id/Cunning"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/CunningString"
+        android:textSize="24dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/BrawnValue" />
+
+    <EditText
+        android:id="@+id/CunningValue"
+        android:layout_width="65dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Cunning" />
+
+    <TextView
+        android:id="@+id/Willpower"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/WillpowerString"
+        android:textSize="24dp"
+        app:layout_constraintStart_toEndOf="@+id/Cunning"
+        app:layout_constraintTop_toBottomOf="@+id/AgilityValue" />
+
+    <EditText
+        android:id="@+id/WillpowerValue"
+        android:layout_width="65dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="68dp"
+        android:layout_marginTop="28dp"
+        android:ems="10"
+        android:inputType="number"
+        app:layout_constraintStart_toEndOf="@+id/CunningValue"
+        app:layout_constraintTop_toBottomOf="@+id/Willpower" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
