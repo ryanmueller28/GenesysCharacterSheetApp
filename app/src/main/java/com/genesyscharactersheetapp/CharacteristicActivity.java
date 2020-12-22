@@ -27,7 +27,9 @@ public class CharacteristicActivity extends AppCompatActivity {
         editCunning = (EditText) findViewById(R.id.CunningValue);
         editWillpower = (EditText) findViewById(R.id.WillpowerValue);
         editPresence = (EditText) findViewById(R.id.PresenceValue);
+        btnAdd = (Button) findViewById(R.id.SubmitButton);
         mDatabaseHelper = new CharacterDatabaseHelper(this);
+
         btnAdd.setOnClickListener(new View.OnClickListener(){
 
             @Override
