@@ -44,8 +44,8 @@
 
     <EditText
         android:id="@+id/BrawnValue"
-        android:layout_width="65dp"
-        android:layout_height="36dp"
+        android:layout_width="64dp"
+        android:layout_height="54dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="8dp"
         android:ems="10"
@@ -66,8 +66,8 @@
 
     <EditText
         android:id="@+id/AgilityValue"
-        android:layout_width="65dp"
-        android:layout_height="36dp"
+        android:layout_width="64dp"
+        android:layout_height="54dp"
         android:layout_marginStart="68dp"
         android:layout_marginTop="8dp"
         android:ems="10"
@@ -88,8 +88,8 @@
 
     <EditText
         android:id="@+id/IntellectValue"
-        android:layout_width="65dp"
-        android:layout_height="36dp"
+        android:layout_width="64dp"
+        android:layout_height="54dp"
         android:layout_marginStart="72dp"
         android:layout_marginTop="8dp"
         android:ems="10"
@@ -99,8 +99,8 @@
 
     <EditText
         android:id="@+id/PresenceValue"
-        android:layout_width="65dp"
-        android:layout_height="36dp"
+        android:layout_width="64dp"
+        android:layout_height="54dp"
         android:layout_marginStart="68dp"
         android:layout_marginTop="28dp"
         android:ems="10"
@@ -133,8 +133,8 @@
 
     <EditText
         android:id="@+id/CunningValue"
-        android:layout_width="65dp"
-        android:layout_height="36dp"
+        android:layout_width="64dp"
+        android:layout_height="54dp"
         android:layout_marginStart="16dp"
         android:layout_marginTop="28dp"
         android:ems="10"
@@ -155,8 +155,8 @@
 
     <EditText
         android:id="@+id/WillpowerValue"
-        android:layout_width="65dp"
-        android:layout_height="36dp"
+        android:layout_width="64dp"
+        android:layout_height="54dp"
         android:layout_marginStart="68dp"
         android:layout_marginTop="28dp"
         android:ems="10"

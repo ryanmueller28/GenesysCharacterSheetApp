@@ -17,7 +17,8 @@ public class CharacteristicActivity extends AppCompatActivity {
     private Button btnAdd;
     private EditText charName, editBrawn, editAgility, editIntellect, editCunning, editWillpower, editPresence;
 
-    protected void onCreate(Bundle savedInstanceState, String characterName) {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_characteristic);
         charName = (EditText) findViewById(R.id.editCharacterName);
